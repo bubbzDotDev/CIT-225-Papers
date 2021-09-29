@@ -33,7 +33,7 @@ With range conditions you can check whether an expression falls within a certain
 (For the `BETWEEN` operator, you must specify the lower limit first.)
 
 ### Lookup Operators
-Using `IN`, `NOT IN`, `LIKE`, and `REGEXP`
+Using `IN`, `NOT IN`, and `LIKE`
 
 Examples: 
 `WHERE rating IN ('G', 'PG');`
