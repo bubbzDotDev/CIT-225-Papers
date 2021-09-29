@@ -5,7 +5,7 @@ By Chris Blount
 
 ## The WHERE clause
 
-##### Equality Comparisons
+### Equality Comparisons
 Using `=`
 
 Example: 
@@ -13,7 +13,7 @@ Example:
 
 Equality conditions equate one expression to another.
 
-##### Inequality Comparisons
+### Inequality Comparisons
 Using `<>` or `!=`
 
 Examples: 
@@ -22,7 +22,7 @@ Examples:
 
 Ineqality conditions assert that two expressions are not equal.
 
-##### Range Comparisons
+### Range Comparisons
 Using `>`, `>=`, `<`, `<=`, and `BETWEEN`
 
 Examples: 
@@ -32,7 +32,7 @@ Examples:
 With range conditions you can check whether an expression falls within a certain range.
 (For the `BETWEEN` operator, you must specify the lower limit first.)
 
-##### Lookup Operators
+### Lookup Operators
 Using `IN`, `NOT IN`, `LIKE`, and `REGEXP`
 
 Examples: 
@@ -44,5 +44,5 @@ For the `IN` operator, you can write a single condition regardless of how many e
 For `NOT IN`, it helps when you want to find expressions that do not exist within the set.
 For the `LIKE` operator in the example above, it compares `last_name` to a string with `_` (each underscore represents a wildcard for one character), `L` (The letter 'L' in the second position), `%` (Any number of characters, including 0), and ending with the letter `T`. In this case, by last name (Blount) would return in the result set.
 
-###### References:
+#### References:
 1. *Learning SQL, 3rd Edition* - By Alan Beaulieu
