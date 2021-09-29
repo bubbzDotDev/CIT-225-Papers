@@ -38,11 +38,11 @@ Using `IN`, `NOT IN`, `LIKE`, and `REGEXP`
 Examples: 
 `WHERE rating IN ('G', 'PG');`
 `WHERE rating NOT IN ('PG-13','R', 'NC-17');`
-`WHERE last_name LIKE '_L%T';`
+`WHERE last_name LIKE '__O%T';`
 
 For the `IN` operator, you can write a single condition regardless of how many expressions are in the set.
 For `NOT IN`, it helps when you want to find expressions that do not exist within the set.
-For the `LIKE` operator in the example above, it compares `last_name` to a string with `_` (each underscore represents a wildcard for one character), `L` (The letter 'L' in the second position), `%` (Any number of characters, including 0), and ending with the letter `T`. In this case, by last name (Blount) would return in the result set.
+For the `LIKE` operator in the example above, it compares `last_name` to a string with `__` (each underscore represents a wildcard for one character), `O` (The letter 'O' in the third position), `%` (Any number of characters, including 0), and ending with the letter `T`. In this case, by last name (Blount) would return in the result set.
 
 #### References:
 1. *Learning SQL, 3rd Edition* - By Alan Beaulieu
