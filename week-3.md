@@ -1,6 +1,7 @@
 # Week 3 Paper
 
 By Chris Blount
+
 9/29/2021
 
 ## The WHERE clause
