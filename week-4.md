@@ -20,3 +20,6 @@ For the ERD, I am starting with the following tables and will think of at least 
 1. `embed`
 1. `field`
 
+![Image of ERD](https://bubbzdotdev.github.io/CIT-225-Papers/images/erd_image.PNG)
+
+I'm looking forward to working more on this project and increasing my understanding of database design and development.
