@@ -21,7 +21,7 @@ My 12 tables:
 1. `user_level`
 1. `embed`
 1. `field`
-1. `reaction_role`
+1. `reaction_role` (linking table)
 1. `reaction`
 1. `role`
 1. `type`
