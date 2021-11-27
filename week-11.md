@@ -1,21 +1,21 @@
-# Week 10 Paper
+# Week 11 Paper
 
 By Chris Blount
 
-11/22/2021
+11/27/2021
 
 ## Final Project Design & Development (cont.)
 
-Looking more closely at the project deliverables, I'm wondering what test case SQL script files are exactly.
+I finished some more mock-ups of user interface forms. The following is the user flow for adding the bot to a server.
 
-I created SQL code for CRUD operations against each table. I'm going to ask for clarification at the next meeting to see what I'm missing.
+When clicking on a card with the green plus icon, a modal appears to confirm adding the bot to a particular server: 
 
-I finished some mock-ups of user interface forms.
+![Add Bot Mockup](https://bubbzdotdev.github.io/CIT-225-Papers/images/wk_11_add_bot.PNG)
 
-Sign in with Discord will use OAuth2 to authenticate the user, collecting their `user_id`, `user_display_name`, and what servers they have access to add bots to:
+Once the bot is added to the server, the user is brought to the dashboard welcome page:
 
-![Sign In Mockup](https://bubbzdotdev.github.io/CIT-225-Papers/images/sign_in.PNG)
+![Dashboard Welcome Mockup](https://bubbzdotdev.github.io/CIT-225-Papers/images/wk_11_dashboard_welcome.PNG)
 
-The next screen will be a list of cards for each server the user has access to add/manage bots in. A green plus sign `+` will appear if the bot is not in that server and a blue info icon `i` will appear if the bot is already in that server:
+After selecting the appropriate menu item for creating an embedded announcement, the user is brought to that page:
 
-![Server List Mockup](https://bubbzdotdev.github.io/CIT-225-Papers/images/your_servers.PNG)
+![Create Announcement Mockup](https://bubbzdotdev.github.io/CIT-225-Papers/images/wk_11_create_announcement.PNG)
