@@ -12,6 +12,6 @@ While filling out the form, a live preview is displayed so the user can see the 
 
 ![Message creation](https://bubbzdotdev.github.io/CIT-225-Papers/images/wk_12_message_prepared.PNG)
 
-Once the message is delivered to the channel, a success page is displayed allowing the user to create a new message or to go to dashboard home:
+Once the message is delivered to the channel, a success page is displayed allowing the user to create a new message or go to dashboard home:
 
 ![Message sent](https://bubbzdotdev.github.io/CIT-225-Papers/images/wk_12_message_sent.PNG)
