@@ -1,21 +1,17 @@
-# Week 11 Paper
+# Week 12 Paper
 
 By Chris Blount
 
-11/27/2021
+12/8/2021
 
 ## Final Project Design & Development (cont.)
 
-I finished some more mock-ups of user interface forms. The following is the user flow for adding the bot to a server.
+I finished more mock-ups of user interface elements. The following is the user flow for making an announcement with the dashboard.
 
-When clicking on a card with the green plus icon, a modal appears to confirm adding the bot to a particular server: 
+While filling out the form, a live preview is displayed so the user can see the layout of their embedded message:
 
-![Add Bot Mockup](https://bubbzdotdev.github.io/CIT-225-Papers/images/wk_11_add_bot.PNG)
+![Message creation](https://bubbzdotdev.github.io/CIT-225-Papers/images/wk_12_message_prepared.PNG)
 
-Once the bot is added to the server, the user is brought to the dashboard welcome page:
+Once the message is delivered to the channel, a success page is displayed allowing the user to create a new message or to go to dashboard home:
 
-![Dashboard Welcome Mockup](https://bubbzdotdev.github.io/CIT-225-Papers/images/wk_11_dashboard_welcome.PNG)
-
-After selecting the appropriate menu item for creating an embedded announcement, the user is brought to that page:
-
-![Create Announcement Mockup](https://bubbzdotdev.github.io/CIT-225-Papers/images/wk_11_create_announcement.PNG)
+![Message sent](https://bubbzdotdev.github.io/CIT-225-Papers/images/wk_12_message_sent.PNG)
