@@ -20,3 +20,4 @@ I'm going to log each thing I do to prepare for the submission:
 1. Created an index (see below)
 1. Created a presentation
 
+![Index](https://bubbzdotdev.github.io/CIT-225-Papers/images/5-index.png)
